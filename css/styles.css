@@ -35,20 +35,8 @@ body {
 .blue {
   color: var(--blue-color);
 }
-.mail {
+.grey {
   color: var(--gray-color);
-}
-.tel {
-  color: var(--gray-color);
-}
-.portfoliob {
-  color: var(--blue-color);
-}
-.agencyb {
-  color: var(--blue-color);
-}
-.mailb {
-  color: var(--blue-color);
 }
 .face {
   background: var(--wall-color);
@@ -151,15 +139,13 @@ body {
 .adress {
   text-decoration: none;
 }
-.street {
+.bright {
   color: var(--white-color);
 }
-.email {
+.dark {
   color: var(--navi-color);
 }
-.kom {
-  color: var(--navi-color);
-}
+
 .menu {
   list-style-type: none;
 }
@@ -181,8 +167,8 @@ body {
 }
 .button {
   cursor: pointer;
-  background: #F5F4FA;
-  border-radius: 4px;
+  background: var( --team-color);
+  border-radius: 1px;
   border: none; 
   padding: 10px 14px; 
   text-align: center; 
